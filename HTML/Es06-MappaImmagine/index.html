@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es06</title>
+</head>
+
+<body>
+    <h1 align="center">Mappa Immagine</h1>
+    <div align="center">
+        <!-- quando si usa mappa immagine non usare width/height che sballa tutti i calcoli -->
+        <img src="img/Penguins.jpg" alt="Immagine pinguini" title="Pinguini" usemap="#mappa">
+
+
+        <map name="mappa">
+            <!-- per coordinate usare sito creat image map, se in corso si cambiano dimensioni immagine bisogna ripetere tutto -->
+            <area target="" alt="pinguino1" title="pinguino1" href="pinguino1.html" coords="227,95,85" shape="circle">
+            <area target="_blank" alt="pinguino2" title="pinguino2" href="pinguino2.html" coords="399,118,72"
+                shape="circle">
+            <area target="_blank" alt="pinguino3" title="pinguino3" href="pinguino3.html" coords="580,92,95"
+                shape="circle">
+        </map>
+    </div>
+
+
+</body>
+
+</html>
